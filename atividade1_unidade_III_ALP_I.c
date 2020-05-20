@@ -2,9 +2,11 @@
 seguida, leia esses números e encontre o maior e o menor.*/
 
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL,"");
     int maior, menor, qtd, cont, num;
     
     printf("Informe a quantidade de números que será analisado: ");
